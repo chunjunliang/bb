@@ -1,0 +1,32 @@
+﻿@page
+@{
+    // Define the JSON object as a string
+    string json = @"
+    {
+        ""name"": ""John Smith"",
+        ""age"": 30,
+        ""email"": ""john.smith@example.com"",
+        ""phoneNumbers"": [
+            ""123-456-7890"",
+            ""098-765-4321""
+        ],
+        ""address"": {
+            ""street"": ""123 Main St"",
+            ""city"": ""Anytown"",
+            ""state"": ""CA"",
+            ""zip"": ""12345""
+        }
+    }";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JSON Example</title>
+</head>
+<body>
+    <pre>
+        @Html.Raw(json)
+    </pre>
+</body>
+</html>
