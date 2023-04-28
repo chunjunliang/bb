@@ -1,23 +1,6 @@
-body {
-	font-family: Arial, sans-serif;
-}
-
-h1 {
-	color: #008080;
-	text-align: center;
-}
-
-ul {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
-
-li {
-	margin-bottom: 10px;
-}
-
-strong {
-	font-weight: bold;
-	margin-right: 5px;
+#employee-container {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
 }
